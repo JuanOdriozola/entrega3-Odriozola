@@ -38,9 +38,8 @@ body{
   }
   
   body {
-    background-image: url('./img/razer2.jpg');
-    background-size: cover;
-    background-repeat: no-repeat;
+    background: rgb(0,0,0);
+background: linear-gradient(123deg, rgba(0,0,0,1) 21%, rgba(16,224,16,1) 87%);
   }
   
   label {
