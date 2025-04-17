@@ -1,23 +1,22 @@
-$primary-color: rgb(16, 224, 16);
-$secondary-color: #0b633e;
-
+@charset "UTF-8";
 /* codigos generales */
 body {
   min-height: 100vh;
 }
-main{
+
+main {
   flex: 1;
 }
 
 h1,
 h2 {
   text-align: center;
-  color: $primary-color;
+  color: rgb(16, 224, 16);
 }
 
 .link {
-  color: $primary-color;
-  border-bottom: 3% solid $primary-color;
+  color: rgb(16, 224, 16);
+  border-bottom: 3% solid rgb(16, 224, 16);
   font-size: 20px;
   text-decoration: none;
   text-decoration: underline;
@@ -45,7 +44,7 @@ body {
 }
 
 label {
-  color: $primary-color;
+  color: rgb(16, 224, 16);
 }
 
 li {
@@ -57,7 +56,7 @@ li {
   flex-direction: row;
   justify-content: space-around;
   padding: 0px;
-  font-family: Georgia, "Times New Roman", Times, serif $primary-color;
+  font-family: Georgia, "Times New Roman", Times, serif rgb(16, 224, 16);
 }
 
 .columnLeft {
@@ -80,9 +79,9 @@ li {
 
 .containerIndex {
   border-radius: 20px;
-  -webkit-box-shadow: $primary-color;
-  -moz-box-shadow: $primary-color;
-  box-shadow: $primary-color;
+  -webkit-box-shadow: rgb(16, 224, 16);
+  -moz-box-shadow: rgb(16, 224, 16);
+  box-shadow: rgb(16, 224, 16);
   border: 0.01rem solid black;
   width: 800px;
   height: 500px;
@@ -95,7 +94,7 @@ li {
 
 /* apartado del teclado RAZER HUNTSMAN MINI 60% */
 .titulos {
-  color: $primary-color;
+  color: rgb(16, 224, 16);
   background-color: white;
   text-decoration: underline;
   font-size: xx-large;
@@ -120,7 +119,6 @@ li {
     opacity: 1;
   }
 }
-
 .teclado {
   width: 90%;
   height: 70%;
@@ -130,7 +128,7 @@ li {
 
 /* apartado del mouse RAZER COBRA PRO */
 .mouse {
-  color: $primary-color;
+  color: rgb(16, 224, 16);
   margin: 15px;
   background-color: white;
   border-radius: 20px;
@@ -176,7 +174,7 @@ li {
 }
 
 .contactorazer {
-  color: $secondary-color;
+  color: #0b633e;
   text-decoration: underline;
 }
 
@@ -190,7 +188,6 @@ li {
 }
 
 /* Esta es la pagina de la PC */
-
 .pdescription {
   text-align: center;
 }
@@ -202,7 +199,7 @@ li {
   justify-content: space-around;
   margin: 15px;
   border-radius: 20px;
-  color: $primary-color;
+  color: rgb(16, 224, 16);
 }
 
 .articulo {
@@ -212,21 +209,20 @@ li {
   justify-content: center;
   margin-top: 25px;
   margin: 25px;
-  color: $primary-color;
+  color: rgb(16, 224, 16);
   background-color: rgb(8, 8, 8);
   border-radius: 20px;
-
   /*  BORDE DE LAS CARTAS  */
-  width: [object Object]px;
-  height: [object Object]px;
+  width: [object Object] px;
+  height: [object Object] px;
   border: solid #050505 1px;
-  box-shadow: 5px 4px 73px rgba(64, 217, 21, 1);
-  -webkit-box-shadow: 5px 4px 73px rgba(64, 217, 21, 1);
-  -moz-box-shadow: 5px 4px 73px rgba(64, 217, 21, 1);
+  box-shadow: 5px 4px 73px rgb(64, 217, 21);
+  -webkit-box-shadow: 5px 4px 73px rgb(64, 217, 21);
+  -moz-box-shadow: 5px 4px 73px rgb(64, 217, 21);
 }
 
 .articulo h2 {
-  color: $primary-color;
+  color: rgb(16, 224, 16);
   text-align: center;
 }
 
@@ -237,27 +233,23 @@ li {
 }
 
 /* pagina sobre puntos de venta*/
-
 .pais {
   text-align: center;
-  color: $primary-color;
+  color: rgb(16, 224, 16);
 }
 
 /* pagina sobre comunidad */
-
 /* TITULOS DE LA PAGINA PC, PUNTOS DE VENTA, COMUNIDAD Y PUNTOS DE VENTA */
 .comu {
   font-family: "Times New Roman";
   text-align: center;
-  color: $primary-color;
+  color: rgb(16, 224, 16);
   background-color: black;
   padding: 5px;
   margin: 15px;
   margin-left: 30%;
   margin-right: 30%;
-
   background-color: #000000;
-
   border: solid #53fa00 2px;
   border-top-left-radius: 25px;
   -webkit-border-top-left-radius: 25px;
@@ -271,7 +263,6 @@ li {
   border-bottom-right-radius: 25px;
   -webkit-border-bottom-right-radius: 25px;
   -moz-border-bottom-right-radius: 25px;
-
   -webkit-box-shadow: 0px 0px 28px 7px #0fea0b;
   -moz-box-shadow: 0px 0px 28px 7px #0fea0b;
   box-shadow: 0px 0px 28px 7px #0fea0b;
@@ -291,16 +282,16 @@ li {
   margin: 15px;
   border-radius: 20px;
   color: rgb(0, 0, 0);
-
   /*  BORDE DE LAS CARTAS  */
-  width: [object Object]px;
-  height: [object Object]px;
+  width: [object Object] px;
+  height: [object Object] px;
   background: #050505;
   border: solid #000000 1px;
-  box-shadow: 5px 5px 79px rgba(43, 255, 0, 1);
-  -webkit-box-shadow: 5px 5px 79px rgba(43, 255, 0, 1);
-  -moz-box-shadow: 5px 5px 79px rgba(43, 255, 0, 1);
+  box-shadow: 5px 5px 79px rgb(43, 255, 0);
+  -webkit-box-shadow: 5px 5px 79px rgb(43, 255, 0);
+  -moz-box-shadow: 5px 5px 79px rgb(43, 255, 0);
 }
+
 .social {
   width: 90%;
   display: flex;
@@ -366,12 +357,12 @@ li {
     margin: 15px;
     text-decoration: underline;
     color: white;
-    background-color: $secondary-color;
+    background-color: #0b633e;
     border-radius: 20px;
     font-size: 14px;
   }
   .mouse {
-    color: $secondary-color;
+    color: #0b633e;
     margin: 15px;
     background-color: white;
     border-radius: 20px;
@@ -384,7 +375,7 @@ li {
     justify-content: center;
     margin-top: 25px;
     margin: 25px;
-    color: $primary-color;
+    color: rgb(16, 224, 16);
     background-color: rgb(8, 8, 8);
     border-radius: 20px;
   }
@@ -394,11 +385,11 @@ li {
     flex-direction: column;
     justify-content: center;
     border-radius: 20px;
-    color: $primary-color;
+    color: rgb(16, 224, 16);
     gap: 15px;
   }
   .genteSatisfecha {
-    color: $primary-color;
+    color: rgb(16, 224, 16);
   }
   /* puntos de venta*/
   .maps {
@@ -412,11 +403,11 @@ li {
   /* comunidad */
   .comu {
     text-align: center;
-    color: $primary-color;
+    color: rgb(16, 224, 16);
     background-color: black;
     display: inline-block;
     justify-content: center;
-    margin-left:  25%;
+    margin-left: 25%;
     margin-top: 5%;
     margin-bottom: 5%;
   }
@@ -440,10 +431,12 @@ li {
   /* centro de ayuda */
   .nacionalidadd {
     text-align: center;
-    color: $primary-color;
+    color: rgb(16, 224, 16);
   }
   .maps {
     display: flex;
     justify-content: center;
   }
 }
+
+/*# sourceMappingURL=style.css.map */
